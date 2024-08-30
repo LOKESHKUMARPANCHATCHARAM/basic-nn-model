@@ -8,7 +8,8 @@ To develop a neural network regression model for the given dataset.
 Neural network regression is a supervised learning method, and therefore requires a tagged dataset, which includes a label column. Because a regression model predicts a numerical value, the label column must be a numerical data type. A neural network regression model uses interconnected layers of artificial neurons to learn the mapping between input features and a continuous target variable. It leverages activation functions like ReLU to capture non-linear relationships beyond simple linear trends. Training involves minimizing the loss function (e.g., Mean Squared Error) through an optimizer (e.g., Gradient Descent). Regularization techniques like L1/L2 and dropout prevent overfitting. This approach offers flexibility and high accuracy for complex regression problems.
 
 ## Neural Network Model
-<img src="image-5.png" width=400 height="300">
+![image](https://github.com/user-attachments/assets/9acfa3d0-5402-4185-bc0f-b007dca5b571)
+
 
 ## DESIGN STEPS
 
@@ -104,17 +105,21 @@ ai_model.predict(x_n1_1)
 
 ```
 ## Dataset Information
-<img src="image.png" width="300" height="250">
+![WhatsApp Image 2024-08-30 at 11 46 41_840db493](https://github.com/user-attachments/assets/b45034f5-1c8c-455e-b873-31db0e4b0320)
+
 
 ## OUTPUT
-![output](image-4.png)
+![WhatsApp Image 2024-08-30 at 11 46 46_c52af4ca](https://github.com/user-attachments/assets/3bc8a15d-9db9-4a63-b1dd-2f22063f4f97)
+
 ### Training Loss Vs Iteration Plot
 
-<img src="image-1.png" width="400" height="300">
+![WhatsApp Image 2024-08-30 at 11 46 57_1f9691d4](https://github.com/user-attachments/assets/fb166579-2aab-45b0-a2a8-a9e6d5cc16ad)
+
 
 ### Test Data Root Mean Squared Error
 
-<img src="image-2.png" width="450" height="50" >
+![WhatsApp Image 2024-08-30 at 11 47 05_f9b8df47](https://github.com/user-attachments/assets/3bf5fa31-a3a6-4430-89a6-f42074de8a1a)
+
 
 ### New Sample Data Prediction
 
